@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kjiji Hotels</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-color">
+<header class="container header-tag">
+    <a href="hotels.html" class="logo1 ">
+        <img src="img/kijiji_logo.png" alt="kijiji logo">
+    </a>
+    <a href="edit-account.html" class="user-profile">
+        <img src="img/profile_arrow.png" alt="kijiji logo">
+    </a>
+</header>
+<section class="container">
+    <div class="input-tag-list">
+        <div class="search-holder">
+            <input type="search" class="search" name="search" placeholder="Search for anything" />
+        </div>
+        <div class="search-holder">
+            <select id="location" placeholder="Location">
+                <option >Select Location</option>
+                <option value="toronto">toronto</option>
+                <option value="montreal">montreal</option>
+                <option value="waterloo">waterloo</option>
+                <option value="vancouver">vancouver</option>
+            </select>
+        </div>
+        <div class="search-holder">
+            <select id="rooms" placeholder="Number of Rooms">
+                <option >Select Room</option>
+                <option value="1">One room</option>
+                <option value="2">Two room</option>
+                <option value="3">Three room</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <div class="list1"> Popular : apartment | 1 bedroom apartment | house for rent | 2 bedroom for rent | 2 bedroom apartments </div>
+    </div>
+
+    <br>
+
+    <div class="parent-box">
+        <div class="side-header">
+            <div class="border-content">
+                <div class="heading-part">Category:</div>
+                <div class="list">All categories</div>
+                <div class="list">Real Estates</div>
+                <div class="list">For Rent</div>
+                <div class="list">Room Rental & Room mate</div>
+                <div class="list">House Rental</div>
+                <div class="list">Short Term Rental</div>
+                <div class="list">Commercial & Office Space for rent(77)</div>
+                <div class="list">Storage $ Parking for Rent(24)</div>
+
+            </div>
+            <div class="border-content">
+                <div class="heading-part">Locations:</div>
+                <div class="list">Barrie</div>
+                <div class="list">Brantford</div>
+                <div class="list">Chatham-Kent</div>
+                <div class="list">Guelph</div>
+                <div class="list">Hamilton</div>
+            </div>
+            <div class="border-content">
+                <div class="heading-part">Offer Type:</div>
+                <div class="list">All Types</div>
+                <div class="list">Offering</div>
+                <div class="list">Wanted</div>
+            </div>
+        </div>
+        <div class="card-layout">
+            <a class="cards" href="detail.html" id="montreal">
+                <div class="img-box"><img src="img/$_59 (1).JPG" alt="logo" /></div>
+                <div class="content">
+                    <div class="heading">Room for Female Student - Avail - May 1st -Summer Lease Avail</div>
+                    <div class="sub-heading" >Montreal</div>
+                    <div class="content-text">This is a fantastic opportunity to subtle e2- rooms basement with your own bathroom for only $560.</div>
+                    <div class="price-tag"> $ 560.00</div>
+                </div>
+            </a>
+            <a class="cards" href="detail.html" id="toronto" >
+                <div class="img-box"><img src="img/$_59 (2).JPG" alt="logo" /></div>
+                <div class="content">
+                    <div class="heading">Newly renovated townhouses 44 Berkley Drive, 3BR</div>
+                    <div class="sub-heading" >Toronto</div>
+                    <div class="content-text">Apartment for Rent in St. Catharines Key Property Details Newly Decorated 2 and 3 Bedroom Townhouse Units Hardwood Floor ...</div>
+                    <div class="price-tag"> $ 1588.00</div>
+                </div>
+            </a>
+            <a class="cards" href="detail.html" id="waterloo">
+                <div class="img-box"><img src="img/$_59.JPG" alt="logo" /></div>
+                <div class="content">
+                    <div class="heading">7 Year Old Detached Home in Woodstock </div>
+                    <div class="sub-heading" >Waterloo</div>
+                    <div class="content-text">Available for showings this week after 4pm. OPEN HOUSE SATURDAY/SUNDAY APRIL 13/14 2-4PM In...</div>
+                    <div class="price-tag"> $ 417,300.00</div>
+                </div>
+            </a>
+            <a class="cards" href="detail.html" id="vancouver">
+                <div class="img-box"><img src="img/house (2).JPG" alt="logo" /></div>
+                <div class="content">
+                    <div class="heading">Room and Your Own Living Room Available Immediately</div>
+                    <div class="sub-heading" >vancouver</div>
+                    <div class="content-text">1 room + your own living room available immediately or May 1st for rent in 2-bedroom townhouse ...</div>
+                    <div class="price-tag"> $ 600.00</div>
+                </div>
+            </a>
+
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="f-header">
+        <div class="heading">Kijiji</div>
+        <div>About</div>
+        <div>Careers</div>
+        <div>Member Benefits</div>
+        <div></div>
+    </div>
+    <div class="f-header">
+        <div class="heading">SUPPORT</div>
+        <div>Help Desk</div>
+        <div>Kijiji in Francias</div>
+        <div>Contact Us</div>
+        <div></div>
+    </div>
+    <div class="f-header">
+        <div class="heading">INFORMATION</div>
+        <div>Tearns of use</div>
+        <div>Privacy Policy</div>
+        <div>Ad Choice</div>
+        <div></div>
+    </div>
+    <div class="f-header">
+        <div class="heading">EXPLORE</div>
+        <div>Kijiji Autos</div>
+        <div>Kijiji Centeral</div>
+        <div>Kijiji mobile payment</div>
+        <div>Tools to promote ads</div>
+    </div>
+
+    <div class="f-header">
+        <div class="heading">©2005-2019 Marktplaats BV <br> </div>
+        <div>All rights reserved. Google, Google Play, YouTube and other marks are trademarks of Google Inc.</div>
+    </div>
+
+</footer>
+<script src="js/index.js"></script>
+</body>
+</html>

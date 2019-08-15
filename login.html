@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Kijji House Login</title>
+  <meta name="description" content="Kijiji House">
+  <meta name="author" content="Arath">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="bodybg">
+  <main class="login-box nav class= "navbar" role="navigation" aria-label="main navigation">
+
+    <div class="logo">
+      <img src="img/kijiji_logo.png" alt="kijiji logo">
+    </div>
+
+    <div class="field">
+      <label class="label">Username</label>
+      <div class="control has-icons-left has-icons-right">
+        <input class="input is-success is-rounded" type="text"  id="username" placeholder=" Enter name">
+        <span class="icon is-small is-left">
+          <i class="fas fa-user"></i>
+        </span>
+        <span class="icon is-small is-right">
+          <i class="fas fa-check"></i>
+        </span>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Password</label>
+      <p class="control has-icons-left">
+        <input class="input is-rounded" type="password" placeholder="Enter Password">
+        <span class="icon is-small is-left">
+          <i class="fas fa-lock"></i>
+        </span>
+      </p>
+      <div class="error"> Please type the correct username and password</div>
+    </div>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <div class="buttons">
+              <button id="loginHtml" class="button is-primary">
+                Log In
+              </button>
+              <a href="edit profile.html"class="button is-light">
+                Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
+  </main>
+<script src="js/index.js"></script>
+
+</body>
+
+</html>

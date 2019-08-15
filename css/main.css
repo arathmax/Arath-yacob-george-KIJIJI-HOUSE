@@ -1,0 +1,314 @@
+ .bodybg{
+    background: url('../img/login_img.jpg') no-repeat;
+     margin: 0;
+    padding: 0; 
+    font-family: sans-serif;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}  
+ 
+.logo {
+    width:  18em;
+    height: 18em;
+    margin: 0em auto;
+    padding: 0;
+    border-radius: 0;
+}
+
+.logo1 {
+    width:  18em;
+    height: auto;
+    margin: 0em auto;
+    padding: 0;
+    border-radius: 0;
+}
+
+.login-box {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    border-radius: 1em;  
+}
+
+.loginboxtext{
+    color: white;
+}
+
+
+body {
+ margin: 0;
+ padding: 0; 
+ font-family: sans-serif;
+
+}
+ .bg-image{
+     background: url('../img/login_img.jpg') no-repeat;
+     background-size: cover;
+     background-position: center;
+     height: 100vh;
+ }
+
+
+.login {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    border-radius: 1em;  
+}
+img{
+    width:100%;
+    /*height:auto;*/
+    height:100%;
+}
+
+.login-box .logo{
+    width: 16em;
+    height: 9em;
+}
+
+/* Listing Main Page */
+
+.profilearrow{
+    
+}
+
+.label {
+    color: white;
+}
+
+.bg-color{
+    /*background-color:#363636;*/
+    background-color:#000;
+}
+.avatar-user{
+    color: #fff;
+    clear: both;
+    font-size: 24px;
+    margin-top: 21px;
+}
+.header-tag{
+    display:flex;
+    margin:10px 0px;
+    margin: auto;
+}
+.input-tag-list{
+    display: flex;
+    padding: 20px 0;
+}
+.input-tag-list .search-holder{
+    width:33.33%;
+    height: auto;
+}
+ .input-tag-list .search-holder input,.input-tag-list .search-holder select{
+     width:100%;
+     height:auto;
+     padding: 10px;
+     -webkit-appearance: none;
+     background: transparent;
+     color:#fff;
+     outline: none;
+ }
+ .input-tag-list .search-holder input{
+     border:1px solid rgb(166, 166, 166);
+     color:#fff;
+ }
+ .side-header{
+     width:30%;
+     border:1px solid rgb(166, 166, 166);
+ }
+ .border-content{
+     border:1px solid rgb(166, 166, 166);
+     color:#fff;
+     height: auto;
+     padding: 10px;
+ }
+ a {
+     text-decoration: none ;
+ }
+ a:hover
+ {
+     color:#000;
+     text-decoration:none;
+     cursor:pointer;
+ }
+.parent-box{
+    display:flex;
+}
+.heading-part{
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    padding: 7px;
+    background-color: grey;
+    border-radius: 20px;
+}
+.list{
+    padding:5px 10px 5px 5px;
+}
+.card-layout{
+    position:relative;
+    width:100%;
+}
+.cards{
+    text-decoration: none;
+    text-underline: none;
+    display: flex;
+    padding: 10px;
+    min-height: 200px;
+    border: 1px solid rgb(166, 166, 166);
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.card-layout .img-box{
+    width:250px;
+    height:Auto;
+}
+.img-box {
+    width: 180px;
+    height: auto;
+}
+.error{
+    opacity:0;
+    color:red;
+    font-size:12px;
+}
+.content{
+    color: #fff ;
+}
+.content .heading{
+    margin-left: 15px;
+    font-size: 24px;
+    padding: 5px 0px;
+}
+.content div{
+    margin-left:15px;
+    padding:10px 0px;
+}
+.price-tag{
+    text-align: right;
+    color: deepskyblue;
+}
+.detail-page-form{
+    width:50%!important;
+}
+.edit-heading{
+    color: #fff;
+    font-size: 24px;
+    margin: 20px 0px;
+    /* text-decoration: underline; */
+    width: 50%;
+    margin: 25px auto 20px auto;
+}
+footer{
+    width: 100%;
+    background: #202020;
+    COLOR: #fff;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+.f-header heading{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.user-profile{
+    width: 8rem;
+    height: 8rem;
+    vertical-align: middle;
+    margin-top: 3rem;
+}
+
+.list1{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #00CBFF;
+}
+.help{
+    display:none;
+}
+
+/* Edit Account Information */
+
+.editprofilebody{
+    width: 30%;
+    background-color: #929292;
+    padding: 45px;
+    border-radius: 40px;
+    margin:auto;
+}
+.heading-room{
+    color:#fff;
+}
+.card-layout-detail{
+    background-color: #363636;
+    border-radius: 5px;
+    padding: 25px;
+}
+.detail-img{
+    display:flex;
+    margin: 25px 0;
+}
+.detail-img .img-box-big{
+    width: 40%;
+    height:400px;
+    border: 5px solid #fff;
+}
+.layout-image{
+    width:20%;
+}
+.layout-image .img-box{
+    margin: 0 10px 10px 10px;
+    border: 5px solid #fff;
+}
+.room-spec{
+    padding: 10px;
+    background-color: #747474;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+.location-data{
+    width:100%;
+}
+.location-address{
+    color:#fff;
+    letter-spacing: 2px;
+    width:40%;
+    display:flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.description-detail{
+    padding: 10px;
+    color: #fff;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+.time-slot{
+    font-size:12px;
+}
+.location-details{
+    text-align:right;
+    width: 100%;
+}
+.heading-desc{
+    margin-top: 30px;
+    color:#fff;
+    font-size:24px;
+    letter-spacing:2px;
+}
+.visits{
+    border-radius: 5px;
+    color: #000;
+    padding: 3px 7px;
+    float: RIGHT;
+    background-color: #8b8b8b;
+}

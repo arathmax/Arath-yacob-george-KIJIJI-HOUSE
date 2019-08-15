@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kjiji Hotels</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-color">
+<header class="container header-tag">
+    <a href="hotels.html" class="logo1 ">
+        <img src="img/kijiji_logo.png" alt="kijiji logo">
+    </a>
+    <div class="user-profile">
+        <img src="img/profile_arrow.png" alt="kijiji logo">
+    </div>
+</header>
+<section class="container">
+    <div class="input-tag-list">
+        <div class="search-holder">
+            <input type="search" class="search" name="search" placeholder="Search for anything" />
+        </div>
+        <div class="search-holder">
+            <select id="location" placeholder="Location">
+                <option >Select Location</option>
+                <option value="toronto">toronto</option>
+                <option value="montreal">montreal</option>
+                <option value="waterloo">waterloo</option>
+                <option value="vancouver">vancouver</option>
+            </select>
+        </div>
+        <div class="search-holder">
+            <select id="rooms" placeholder="Number of Rooms">
+                <option >Select Room</option>
+                <option value="1">One room</option>
+                <option value="2">Two room</option>
+                <option value="3">Three room</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <div class="list1"> Popular : apartment | 1 bedroom apartment | house for rent | 2 bedroom for rent | 2 bedroom apartments </div>
+    </div>
+
+    <div class="edit-heading">Edit Profile</div>
+
+    <div class="detail-page-form editprofilebody">
+
+        <figure class="image is-128x128">
+            <img class="is-rounded" src="..//img/profile.png">
+        </figure>
+
+        <br>
+        <form name="signup">
+
+            <div class="file">
+                <label class="file-label">
+                    <input class="file-input" type="file" name="resume" required>
+                    <span class="file-cta">
+                <span class="file-icon">
+                    <i class="fas fa-upload"></i>
+                </span>
+                <span class="file-label">
+                   Update Profile
+                </span>
+            </span>
+                </label>
+            </div>
+
+            <br>
+
+            <div class="field">
+                <label class="label">Username</label>
+                <div class="control has-icons-left has-icons-right">
+                    <input class="input is-rounded" type="text" id="editUsername" value="Arath"  placeholder="Enter Username" required>
+                    <span class="icon is-small is-left">
+                <i class="fas fa-user"></i>
+            </span>
+                    <span class="icon is-small is-right">
+                <i class="fas fa-check"></i>
+            </span>
+                </div>
+                <p class="help is-rounded">This username is available</p>
+            </div>
+            <main>
+
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-rounded" type="email" value="arath@gmail.com" placeholder=" Enter Email" required>
+                        <span class="icon is-small is-left">
+                <i class="fas fa-envelope"></i>
+            </span>
+                        <span class="icon is-small is-right">
+                <i class="fas fa-exclamation-triangle"></i>
+            </span>
+                    </div>
+                    <p class="help is-rounded">This email is invalid</p>
+                </div>
+
+                <div class="field">
+                    <label class="label">Password</label>
+                    <p class="control has-icons-left">
+                        <input class="input is-rounded" type="password" placeholder="Old Password">
+                        <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
+                    </p>
+                </div>
+                <div class="field">
+                    <label class="label">Password</label>
+                    <p class="control has-icons-left">
+                        <input class="input is-rounded" type="password" placeholder="new Password">
+                        <span class="icon is-small is-left">
+                    <i class="fas fa-lock"></i>
+                </span>
+                    </p>
+                </div>
+
+                <div class="field">
+                    <label class="label"> Street Address </label>
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input is-rounded" type="text" value="205, Humber College Blvd" placeholder=" Enter address" required>
+                        <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                </span>
+                        <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </span>
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Mobile Number</label>
+                    <p class="control has-icons-left">
+                        <input class="input is-rounded" type="text"  value="647-833-4586" placeholder="Enter Mobile Number" required>
+                        <span class="icon is-small is-left">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                    </p>
+                </div>
+
+                <div class="field is-grouped">
+                    <div class="control">
+                        <button type ="submit" class="button is-link">Save changes</button>
+                    </div>
+                    <div class="control">
+                        <button class="button is-text">Cancel</button>
+                    </div>
+                    <div class="control">
+                        <button type ="submit" class="button is-link" id="logout">Log Out</button>
+                    </div>
+                </div>
+
+
+            </main>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="f-header">
+        <div class="heading">Kijiji</div>
+        <div>About</div>
+        <div>Careers</div>
+        <div>Member Benefits</div>
+        <div></div>
+    </div>
+    <div class="f-header">
+        <div class="heading">SUPPORT</div>
+        <div>Help Desk</div>
+        <div>Kijiji in Francias</div>
+        <div>Contact Us</div>
+        <div></div>
+    </div>
+    <div class="f-header">
+        <div class="heading">INFORMATION</div>
+        <div>Tearns of use</div>
+        <div>Privacy Policy</div>
+        <div>Ad Choice</div>
+        <div></div>
+    </div>
+    <div class="f-header">
+        <div class="heading">EXPLORE</div>
+        <div>Kijiji Autos</div>
+        <div>Kijiji Centeral</div>
+        <div>Kijiji mobile payment</div>
+        <div>Tools to promote ads</div>
+    </div>
+
+    <div class="f-header">
+        <div class="heading">©2005-2019 Marktplaats BV <br> </div>
+        <div>All rights reserved. Google, Google Play, YouTube and other marks are trademarks of Google Inc.</div>
+    </div>
+
+</footer>
+<script src="js/index.js"></script>
+</body>
+</html>
